@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+/* Section styles */
+html {
+  background-color: black;
+}
+
+body {
+  min-width: 300px;
+  font-family: "Lato";
+  color: #eee;
+  margin: 0px;
+}
+
+header {
+  margin-bottom: 15px;
+  padding: 8px 8px 12px 8px;
+  background: #3e674b;
+  width: 100%;
+}
+
+div#results {
+  margin: 5px;
+  background-color: #eee;
+  color: #333;
+  padding: 5px 15px 15px 15px;
+  border-radius: 5px;
+}
+
+
+/* Form styles */
+form {
+  margin: 5px 5px 5px 18px;
+}
+
+input, select {
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 210px;
+}
+
+input[type=submit] {
+  background-color: #ddd;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  width: 100px;
+  margin: 10px 0px;
+}
+
+input[type=submit]:hover {
+  background-color: #eee;
+}
+
+input[type=submit]:active {
+  background-color: #777;
+  color: #eee;
+}
+
+/* Text styles */
+h1 {
+  margin: 5px 8px;
+  margin-left: 8px;
+}
+
+h2 {
+  margin: 5px 0px;
+}
+
+label {
+  font-size: 14px;
+}
+
+a {
+  color: #fff;
+  font-weight: bold;
+}
+
+span {
+  margin-left: 8px;
+}

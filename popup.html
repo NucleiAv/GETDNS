@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="popup.css">
+  <script src="popup.js"></script>
+  <title>GETDNS</title>
+  <img src="icons/icon.png" alt="GETDNS" class="center" style="height: 150px; width: 300px;">
+</head>
+
+<body>
+  <header>
+    <h1>GETDNS</h1>
+   
+  </div>
+
+  <form>
+    <label for="record-type">Type:</label><br>
+    <select id="record-type">
+      <option value="quickCheck">QuickCheck</option>
+      <option value="a">A</option>
+      <option value="aaaa">AAAA</option>
+      <option value="cname">CNAME</option>
+      <option value="mx">MX</option>
+      <option value="ns">NS</option>
+      <option value="soa">SOA</option>
+      <option value="srv">SRV</option>
+      <option value="txt">TXT</option>
+    </select><br>
+
+    <h3>Here 'chrome:' is the browser. <br> To search for records, remove it.</h3>
+    <label for="record-name">Name:</label><br>
+    <input type="text" id="record-name"><br>
+    <input type="submit" id="submit-button" value="Check">
+  </form>
+
+
+  <div id="results">
+    <!-- Dynamically filled with search results -->
+  </div>
+
+
+</body>
+
+</html>
