@@ -4,9 +4,11 @@ A Chrome browser extension that allows users to query DNS settings for any websi
 You can install the extension here - https://chromewebstore.google.com/detail/getdns/pllbdkjimkbdldkeembemoidhggkpmje
 
 **Do review and rate my extension.**
-
+## Logo
+![icon](https://github.com/user-attachments/assets/3c0cf609-fa7e-4724-876a-46119cf6abae)
 ## Images
 ### Screenshot 1
+
 ![GETDNS_screenshot_1](https://github.com/user-attachments/assets/87686757-34cd-4ca9-89b5-37719da4b8db)
 
 ### Screenshot 2
